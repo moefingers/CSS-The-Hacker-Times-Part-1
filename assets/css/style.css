@@ -13,8 +13,9 @@ nav {
     border-top: 1px solid rgb(196,196,196);
     border-bottom: 1px solid rgb(196,196,196);
     position:sticky;
-    background:white;
     top:0px;
+    background: rgba(255, 255, 255, 0.356);
+    backdrop-filter: blur(3px);
 }
 
 nav li {
@@ -24,7 +25,8 @@ nav li {
 
 nav li a {
     text-decoration: none;
-    color: grey;
+    color: black;
+    font-weight: bold;
 }
 
 nav li a:hover {
